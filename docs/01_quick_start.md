@@ -6,7 +6,7 @@
 以下を実行することで当該インデックスのマッピングと設定を登録できる（具体的な設定内容は後述）
 
 ```bash
-PUT /new-index-001
+PUT /new-index-101
 {
     "settings": {
       "index.number_of_shards": 1,
@@ -52,7 +52,7 @@ GET /_alias
 登録の方法は複数あるが、ここでは POST を用いた以下の方法で実行する
 
 ```bash
-POST /new-index-001/_doc
+POST /new-index-101/_doc
 {
   "id": "id-1",
   "name": "テスト",
@@ -68,7 +68,7 @@ POST /new-index-001/_doc
 以下を実行することで先ほど登録されたドキュメントを確認できる
 
 ```bash
-GET /new-index-001/_search
+GET /new-index-101/_search
 {
   "size": 10,
   "query": {

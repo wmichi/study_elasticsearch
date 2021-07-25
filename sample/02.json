@@ -1,20 +1,20 @@
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-1", "name": "テスト", "number": 1}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-2", "name": "サンプル", "number": 2}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-3", "name": "サンプル", "number": 3}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-4", "name": "おためし", "number": 4}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-5", "name": "サンプル", "number": 5}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-6", "name": "おためし", "number": 6}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-7", "name": "サンプル", "number": 7}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-8", "name": "おためし", "number": 8}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-9", "name": "テスト", "number": 9}
-{"create":{"_index": "new-index-002", "_type": "_doc" }}
+{"create":{"_index": "new-index-201", "_type": "_doc" }}
 {"id": "id-10", "name": "おためし", "number": 10}

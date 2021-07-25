@@ -1,6 +1,6 @@
 ES_HOST=localhost
 ES_PORT=9200
-INDEX_NAME=new-index-002
+INDEX_NAME=new-index-201
 SAMPLE_DIR=sample
 
 # インデックスの作成

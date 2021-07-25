@@ -13,7 +13,7 @@ bash bin/02.sh
 今回は`size`, `sort`, `query`, `_source`のみを用いた簡単な検索をする
 
 ```bash
-GET /new-index-002/_search
+GET /new-index-201/_search
 {
   "size": 10,
   "sort": [
