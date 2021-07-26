@@ -31,25 +31,25 @@ PUT /new-index-501
 
 # Bulkでの投入
 PUT /new-index-501/_bulk
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-1", "name": "テスト", "number": 1}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-2", "name": "サンプル", "number": 2}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-3", "name": "サンプル", "number": 3}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-4", "name": "おためし", "number": 4}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-5", "name": "サンプル", "number": 5}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-6", "name": "おためし", "number": 6}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-7", "name": "サンプル", "number": 7}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-8", "name": "おためし", "number": 8}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-9", "name": "テスト", "number": 9}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-501"}}
 {"id": "id-10", "name": "おためし", "number": 10}
 ```
 
@@ -96,25 +96,25 @@ time -p {
 
 # Bulkでの投入
 time curl -XPUT "localhost:9200/new-index-502/_bulk" -H 'Content-Type: application/json' -d '
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-1", "name": "テスト", "number": 1}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-2", "name": "サンプル", "number": 2}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-3", "name": "サンプル", "number": 3}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-4", "name": "おためし", "number": 4}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-5", "name": "サンプル", "number": 5}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-6", "name": "おためし", "number": 6}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-7", "name": "サンプル", "number": 7}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-8", "name": "おためし", "number": 8}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-9", "name": "テスト", "number": 9}
-{"create":{"_index": "new-index-201"}}
+{"create":{"_index": "new-index-502"}}
 {"id": "id-10", "name": "おためし", "number": 10}
 '
 ```

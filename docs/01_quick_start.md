@@ -36,7 +36,7 @@ PUT /new-index-101
 {
   "acknowledged": true,
   "shards_acknowledged": true,
-  "index": "new-index-001"
+  "index": "new-index-101"
 }
 ```
 
